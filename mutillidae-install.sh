@@ -1,3 +1,5 @@
+
+#! /bin/bash
 apt update -y
 apt install php-xml php-fpm libapache2-mod-php php-mysql php-gd php-imap php-gettext php-curl -y
 mkdir -p /var/www/mutillidae.com/public_html
